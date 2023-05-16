@@ -1,0 +1,128 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "name": "Thriller",
+      "year_released": 1982,
+      "tracks": [
+        "The Girl Is Mine",
+        "Billie Jean",
+        "The Lady In My Life",
+        "Beat It",
+        "P.Y.T. (Pretty Young Thing)",
+        "Human Nature",
+        "Baby Be Mine",
+        "Wanna Be Startin' Something"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+      "back": "https://vinyl-records.nl/pop/photo-gallery/michael-jackson/a0804%20michael%20jackson%20thriller%200794.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bad",
+      "year_released": 1987,
+      "tracks": [
+        " I Just Can't Stop Loving You ",
+        " Bad ",
+        " The Way You Make Me Feel ",
+        " Man In the Mirror ",
+        " Dirty Diana ",
+        " Another Part of Me ",
+        " Smooth Criminal ",
+        " Leave Me Alone ",
+        " Liberian Girl",
+        " Speed Demon "
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Prince_-_Prince.jpg/220px-Prince_-_Prince.jpg",
+      "back": "https://m.media-amazon.com/images/I/71cNSHyNjTL._SL1261_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Off The Wall",
+      "year_released": 1979,
+      "tracks": [
+        "Don't Stop 'Til You Get Enough",
+        "Rock With You ",
+        "Workin' Day And Night ",
+        "Get On The Floor ",
+        "Off The Wall ",
+        "Girlfriend",
+        "She's Out Of My Life ",
+        "I Can't Help It",
+        "It's The Falling In Love ",
+        "Burn This Disco Out "
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Off_the_wall.jpg/220px-Off_the_wall.jpg",
+      "back": "https://m.media-amazon.com/images/I/616sFxASG7L._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Invincible",
+      "year_released": 2001,
+      "tracks": [
+        "Unbreakable",
+        "Heartbreaker",
+        "Invincible",
+        "Break of Dawn ",
+        "Heaven Can Wait ",
+        "You Rock My World",
+        "Butterflies ",
+        "Speechless",
+        "2000 Watts ",
+        "Privacy",
+        "Don't Walk Away ",
+        "Cry",
+        "The Lost Children",
+        "Whatever Happens",
+        "Threatened "
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Mjinvincible.jpg/220px-Mjinvincible.jpg",
+      "back": "https://images.squarespace-cdn.com/content/v1/565c1ab5e4b05079e4bfa169/1614214633412-DPV1OK6UASDH8B0WHNF9/Michael+Jackson+Invincible+CD+Rear+Cover.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dangerous",
+      "year_released": 1991,
+      "tracks": [
+        "Jam",
+        "Why You Wanna Trip On Me",
+        "In The Closet",
+        "She Drives Me Wild",
+        "Remember the Time ",
+        "Can't Let Her Get Away",
+        "Heal The World",
+        "Black Or White",
+        "Who Is It",
+        "Give In To Me",
+        "Will You Be There",
+        "Keep the Faith",
+        "Gone Too Soon ",
+        "Dangerous"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg",
+      "back": "https://cdn.smehost.net/michaeljacksoncom-uslegacyprod/wp-content/uploads/2016/03/dangerousback.png"
+    }
+  ],
+  "favorites": [
+    {
+      "name": "",
+      "rating": "",
+      "id": 1
+    },
+    {
+      "name": "",
+      "rating": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "rating": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "rating": "",
+      "id": 4
+    }
+  ]
+}
