@@ -1,8 +1,8 @@
 html{
-    background-image: linear-gradient(#800080, #9663c4);
+    background-image: linear-gradient(#fa0000, #000000);
     font-family:'Luminari';
     /* DomaineDisplay, 'serif'; */
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     
 
 }
@@ -12,6 +12,8 @@ html{
     text-align: center;
     height: 100px;
     font-family: Lucida Handwriting, cursive;
+    font-display: rgb(222, 67, 67)
+    ;
 }
 
 div{
@@ -49,7 +51,7 @@ div{
 }
 
 #favorites{
-    background-color: blue;
+    background-color: rgb(138, 4, 4);
    float: right;
    width: 23.4% !important;
    text-align: center;
@@ -68,8 +70,8 @@ img {
 button {
     align-items: center;
     appearance: none;
-    background-color: #483248;
-    background-image: linear-gradient(1deg, #4F58FD, #483248 99%);
+    background-color: #936a6a;
+    background-image: linear-gradient(1deg, #ac3410, #950707 99%);
     background-size: calc(100% + 20px) calc(100% + 20px);
     border-radius: 100px;
     border-width: 0;
@@ -96,7 +98,7 @@ white-space: nowrap;
 }
 
 #album_nav img:hover {
-    filter: drop-shadow(0 0 0.75rem #CBC3E3)
+    filter: drop-shadow(0 0 0.75rem #000000)
 }
 
 #album_nav img{
@@ -110,12 +112,12 @@ white-space: nowrap;
    max-height: 700px;
    min-width: 450px;
    min-height: 450px;
-   filter: drop-shadow(0 0 2em #483248);
+   filter: drop-shadow(0 0 2em #a50a0a);
 
 }
 
 .star-selected {
-    color: #a218ff;
+    color: #ff1818;
     filter: drop-shadow(0 0 0.75rem yellow)
   }
 
