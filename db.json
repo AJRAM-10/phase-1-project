@@ -103,26 +103,5 @@
       "back": "https://cdn.smehost.net/michaeljacksoncom-uslegacyprod/wp-content/uploads/2016/03/dangerousback.png"
     }
   ],
-  "favorites": [
-    {
-      "name": "",
-      "rating": "",
-      "id": 1
-    },
-    {
-      "name": "",
-      "rating": "",
-      "id": 2
-    },
-    {
-      "name": "",
-      "rating": "",
-      "id": 3
-    },
-    {
-      "name": "",
-      "rating": "",
-      "id": 4
-    }
-  ]
+  "favorites": []
 }

@@ -1,27 +1,21 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Website Title</title>
+    <title>Michael Jackson fanpage</title>
     <link rel="stylesheet" href="main.css"/>
     <script src="https://kit.fontawesome.com/56506baed1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <script type="text/javascript" src="index.js"></script>
-        <header id="header"> Title Header</header>
-            <hr>
-            <div id="nav-bar">
-                <nav id="bar">
-        
-                <!-- Location of selections preview, will be clickable --></nav>
-            </div> 
-            <hr>
-          
-
-        <div id="PlaceHolder" class="flex-container"> <!---use .map to display selection-->
-            <img class="flex-child" id="PH" />
-            <div class="flex-child" id="pH">
-                <div class="dropdown-content"> <!--element, click to rate-->
+        <script defer type="text/javascript" src="index.js"></script>
+        <header id="header">Just Beat It</header>
+        <div id="album-info" class="flex-container"> <!---use .map to display album cover, name, year, tracks-->
+            <img class="flex-child" id="album-image" />
+            <div class="flex-child">
+                <h2 id="title">Album Title</h2>
+                <p id="year">Year Release</p>
+                
+                <ol id="tracklist">Tracks</ul>
+                <div class="dropdown-content"> <!--empty star element, click to rate-->
                     <p>
                         <span class="checked"></span>
                         <span class="unchecked"></span>
@@ -31,12 +25,19 @@
             </div>
             <hr>
         </div>
-        <div id="whatever">
-            <form id="pHForm">
-                <ol>Place Holder</ol>
+        <div id="favorites">
+            <form id="faveForm">
+                <ol>Your Favorite Songs & Ratings:</ol>
                 <hr>
-                <p id="PHList"></p>
+                <p id="faveTrack"></p>
             </form>
         </div>
+        <hr>
+        <div id="nav-bar">
+            <nav id="album_nav">
+    
+            <!-- Location of album art preview, will be clickable --></nav>
+        </div> 
+        <hr>
     </body>
 </html>

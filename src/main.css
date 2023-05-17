@@ -1,0 +1,126 @@
+html{
+    background-image: linear-gradient(#800080, #9663c4);
+    font-family:'Luminari';
+    /* DomaineDisplay, 'serif'; */
+    color: antiquewhite;
+    
+
+}
+#header{
+    font-size: 50px;
+    font-size: 90px;
+    text-align: center;
+    height: 100px;
+    font-family: Lucida Handwriting, cursive;
+}
+
+div{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nav-bar{
+    font-size: 50px;
+    height:auto;
+    display:flex;
+    justify-content: center;
+  
+}
+
+
+.flex-container {
+    display: flex;
+    float: left;
+    width: 75% !important;
+
+
+}
+
+.flex-child{
+    flex: 1;
+    float: left;
+    width: auto;
+    margin: 10px;
+    margin-left: 40px;
+    font-size: xx-large;
+    font-size: x-large;
+    justify-content: center;
+}
+
+#favorites{
+    background-color: blue;
+   float: right;
+   width: 23.4% !important;
+   text-align: center;
+   height: auto;
+}
+
+
+img {
+    margin: 10px
+}
+
+#faveTrack {
+    float: left;
+}
+
+button {
+    align-items: center;
+    appearance: none;
+    background-color: #483248;
+    background-image: linear-gradient(1deg, #4F58FD, #483248 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+white-space: nowrap;
+}
+
+#album_nav img:hover {
+    filter: drop-shadow(0 0 0.75rem #CBC3E3)
+}
+
+#album_nav img{
+    height: 300px;
+}
+
+#album-image{
+  /* display: block; */
+  object-fit: cover;
+   max-width: 700px;
+   max-height: 700px;
+   min-width: 450px;
+   min-height: 450px;
+   filter: drop-shadow(0 0 2em #483248);
+
+}
+
+.star-selected {
+    color: #a218ff;
+    filter: drop-shadow(0 0 0.75rem yellow)
+  }
+
+#tracklist{
+    font-family: 'Gill Sans';
+}
+
+/* test */
