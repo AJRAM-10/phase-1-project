@@ -1,43 +1,47 @@
-`<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Michael Jackson fanpage</title>
-    <link rel="stylesheet" href="main.css"/>
-    <script src="https://kit.fontawesome.com/56506baed1.js" crossorigin="anonymous"></script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Michael Jackson Fanpage</title>
+        <link rel="stylesheet" href="main.css"/>
+        <script src="https://kit.fontawesome.com/56506baed1.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <script defer type="text/javascript" src="index.js"></script>
-        <header id="header">Just Beat It</header>
-        <div id="album-info" class="flex-container"> <!---use .map to display album cover, name, year, tracks-->
+        <header id="header">Just Beat It!</header>
+       
+        <hr>
+        
+        <div id="nav-bar">
+                <nav id="album_nav">
+                    <!-- Location of album art preview, will be clickable -->
+                </nav>
+        </div> 
+        
+        <hr>
+            
+        <div id="album-info" class="flex-container"> <!---use .forEach to display album cover, name, year, tracks-->
             <img class="flex-child" id="album-image" />
             <div class="flex-child">
                 <h2 id="title">Album Title</h2>
                 <p id="year">Year Release</p>
-                
+                    
                 <ol id="tracklist">Tracks</ul>
                 <div class="dropdown-content"> <!--empty star element, click to rate-->
                     <p>
                         <span class="checked"></span>
                         <span class="unchecked"></span>
-                
+                    
                     </p>
                 </div>
             </div>
-            <hr>
         </div>
+        
+        <hr>
+        
         <div id="favorites">
-            <form id="faveForm">
-                <ol>Your Favorite Songs & Ratings:</ol>
-                <hr>
-                <p id="faveTrack"></p>
-            </form>
+            <ol>Your Favorite Songs & Ratings:</ol>
+            <hr>
+            <p id="faveTrack"></p>
         </div>
-        <hr>
-        <div id="nav-bar">
-            <nav id="album_nav">
-    
-            <!-- Location of album art preview, will be clickable --></nav>
-        </div> 
-        <hr>
     </body>
 </html>

@@ -18,15 +18,18 @@ fetch ('http://localhost:3000/albums')
 
 function displayAlbum(album) {
     const displayImage = document.getElementById('album-image')
-    displayImage.src = album.image
     const displayTitle = document.getElementById('title')
-    displayTitle.textContent = album.name
     const displayYear = document.getElementById('year')
-    displayYear.textContent = album.year_released
     const displayList = document.getElementById('tracklist')
+    
+    displayImage.src = album.image
+    displayTitle.textContent = album.name
+    displayYear.textContent = album.year_released
+    
     displayImage.addEventListener('mouseover', () => {
-    displayImage.src = album.back
+        displayImage.src = album.back
     })
+    
     displayImage.addEventListener('mouseout', () => { 
         displayImage.src = album.image 
     })
@@ -36,14 +39,15 @@ function displayAlbum(album) {
     album.tracks.forEach(track => {
         const trackSong = document.createElement('li')
         const trackButton = document.createElement('button')
-        // const buttonIcon = document.createElement('i')
+        
         trackButton.className = "fa-solid fa-heart"
         trackSong.textContent = ` ${track} `
         trackButton.textContent = " "
+        
         trackButton.addEventListener('click', trackFavorites)
+        
         displayList.appendChild(trackSong)
         trackSong.appendChild(trackButton)
-        // trackButton.appendChild(buttonIcon)
     })
 }
 
@@ -65,34 +69,38 @@ function trackFavorites(e) {
     .then(data => {
         const trackFavorites = document.getElementById('faveTrack')
         const newTrack = document.createElement('li')
-        newTrack.textContent = trackName
-        const removeButton = document.createElement('button')
         const ratings1 = document.createElement('i')
+        const ratings2 = document.createElement('i')
+        const ratings3 = document.createElement('i')
+        const ratings4 = document.createElement('i')
+        const ratings5 = document.createElement('i')
+        const removeButton = document.createElement('button')
+
+        newTrack.textContent = trackName
         ratings1.className = "fa-solid fa-star"
         ratings1.id = "ratings 1"
-        const ratings2 = document.createElement('i')
         ratings2.className = "fa-solid fa-star"
         ratings2.id = "ratings 2"
-        const ratings3 = document.createElement('i')
         ratings3.className = "fa-solid fa-star"
         ratings3.id = "ratings 3"
-        const ratings4 = document.createElement('i')
         ratings4.className = "fa-solid fa-star"
         ratings4.id = "ratings 4"
-        const ratings5 = document.createElement('i')
         ratings5.className = "fa-solid fa-star"
         ratings5.id = "ratings 5"
+        
         removeButton.textContent = 'remove'
         removeButton.setAttribute('id', 'delete-btn') 
         removeButton.addEventListener('click', (e) => {
             e.preventDefault()
             byeByeBye(e, data.id)
         })
+        
         ratings1.addEventListener('click', changeTrackRating)
         ratings2.addEventListener('click', changeTrackRating)
         ratings3.addEventListener('click', changeTrackRating)
         ratings4.addEventListener('click', changeTrackRating)
         ratings5.addEventListener('click', changeTrackRating)
+        
         newTrack.appendChild(ratings1)
         newTrack.appendChild(ratings2)
         newTrack.appendChild(ratings3)
